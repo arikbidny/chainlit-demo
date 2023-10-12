@@ -1,6 +1,5 @@
 import chainlit as cl
 
-
 @cl.on_message  # this function will be called every time a user inputs a message in the UI
 async def main(message: str, message_id: str):
     """
